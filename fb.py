@@ -280,8 +280,8 @@ def login123():
 	os.system('clear')
 	banner()
 	print('')
-	cetak(panel(f"{K2}[{H2}01{K2}] {K2}Lanjut Ke Menu Login\n{K2}[{H2}02{K2}] {K2}Cara Mengetahui ID Facebook\n{K2}[{H2}03{K2}] {K2}Cara Mengambil Cookie Akun Facebook\n",width=101,title=f"{K2}Menu Login & Tutorial",subtitle_align='center',padding=(0,2),style=f"green"))
-	bryn = input(f'\x1b[1;95m╰─> \x1b[1;95mPilih Menu > \033[93m')
+	cetak(panel(f"{K2}[{H2}01{K2}] {K2}Continue to the Login Menu\n{K2}[{H2}02{K2}] {K2}Cara Mengetahui ID Facebook\n{K2}[{H2}03{K2}] {K2}Cara Mengambil Cookie Akun Facebook\n",width=101,title=f"{K2}Menu Login & Tutorial",subtitle_align='center',padding=(0,2),style=f"green"))
+	bryn = input(f'\x1b[1;95m╰─> \x1b[1;95mHalbzhardn Menu > \033[93m')
 	if bryn in ['1','01']:
 		login_lagi334()
 	elif bryn in ['2','02']:
@@ -289,7 +289,7 @@ def login123():
 	elif bryn in ['3','03']:
 		cookie_id()
 	else:
-		print('\x1b[1;95m╰─> \x1b[1;95mPilih Yang Bener Kak ! ')
+		print('\x1b[1;95m╰─> \x1b[1;95mDanayaki GunJau Hall Bzhera Expert! ')
 		time.sleep(5)
 		back()
 		
@@ -306,7 +306,7 @@ def login():
 		except KeyError:
 			login123()
 		except requests.exceptions.ConnectionError:
-			li = 'TIDAK ADA KONEKSI INTERNET, PERIKSA & COBA LAGI !'
+			li = 'NO INTERNET CONNECTION, CHECK AND TRY AGAIN !'
 			lo = mark(li, style='red')
 			sol().print(lo, style='cyan')
 			exit()
@@ -317,10 +317,10 @@ def login_lagi334():
 	try:
 		os.system('clear')
 		banner()
-		cetak(nel(f'\t\t {K2}PASTIKAN AKUN ANDA TIDAK SEDANG MODE GRATIS & TIDAK MEMASANG A2F !'))
+		cetak(nel(f'\t\t {K2}MAKE SURE THAT YOUR ACCOUNT IS NOT IN FREE MODE AND A2F IS NOT INSTALLED!'))
 		print('')
 		cetak(nel('\t\t\t       ©©© Saran Ektensi : [blue]Cookiedough[white] ©©©'))
-		your_cookies = input('\x1b[1;95m╰─> \x1b[1;95mMasukkan Cookie Akun Facebook Anda > \x1b[1;95m')
+		your_cookies = input('\x1b[1;95m╰─> \x1b[1;95mGeben Sie Ihr Facebook-Konto-Cookie ein > \x1b[1;95m')
 		with requests.Session() as r:
 			try:
 				r.headers.update({'content-type': 'application/x-www-form-urlencoded',})
@@ -415,15 +415,15 @@ def menu(name,id):
 	print('\x1b[1;91m<--------------------------------------------------------------------------------------------------->')
 	print('\t\t\t             \x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95mINFORMASI LOKASI ANDA\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎')
 	print('')
-	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Internet Protocol Kamu       : {m}{ip}')
-	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Informasi Negara Kamu        : {m}{negara}')
-	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Informasi Kota Kamu          : {m}{asal_kota}')
-	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Informasi Kartu Kamu         : {m}{sim}')
-	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Informasi Wiayah Kamu        : {m}{asal_reg}')
-	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Informasi Waktu Saat Ini     : {m}{jam}')
-	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Informasi Tanggal Sekarang   : {m}{hari},{sekarang}')
+	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Internet Your Protocol    : {m}{ip}')
+	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Informasi Your Country      : {m}{negara}')
+	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Informasi Your City      : {m}{asal_kota}')
+	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Informasi Your Card       : {m}{sim}')
+	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Informasi Your Wiayah       : {m}{asal_reg}')
+	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Informasi Current Time     : {m}{jam}')
+	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Informasi Date Now   : {m}{hari},{sekarang}')
 	print('\x1b[1;91m<--------------------------------------------------------------------------------------------------->')
-	print('\t\t\t\t        \x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95mINFORMASI MENU\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎')
+	print('\t\t\t\t        \x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95mMENU INFORMATION\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎')
 	
 	print('\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95m01. Crack Massal \33[m[\x1b[1;97mON\33[m]')
 	print('\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95m02. Crack Publik \33[m[\x1b[1;97mON\33[m]')
