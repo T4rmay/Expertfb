@@ -225,7 +225,7 @@ thn = datetime.now().year
 tanggal = (str(tgl)+' '+str(bln)+' '+str(thn))
 hari = datetime.now().strftime("%A")
 sekarang = ''+str(tgl)+'-'+str(bln)+'-'+str(thn)
-###----------[ TAHUN AKUN ]---------- ###
+###----------[ Gu Bxo]---------- ###
 def tahun(fx):
 	if len(fx)==15:
 		if fx[:10] in ['1000000000']       :tahunz = '2009'
@@ -408,12 +408,12 @@ def menu(name,id):
 	print('\x1b[1;95m[\x1b[1;95m▪︎\x1b[1;95m] \x1b[1;95mWhatsapp    : \x1b[1;97m085839847329')
 	print('\x1b[1;95m[\x1b[1;95m▪︎\x1b[1;95m] \x1b[1;95mInstagram   : \x1b[1;97m@kelelawar_cyber_team')
 	print('\x1b[1;91m<--------------------------------------------------------------------------------------------------->')
-	print('\t\t\t\t     \x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95mINFORMASI AKUN ANDA\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎')
+	print('\t\t\t\t     \x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95mYOUR ACCOUNT INFORMATION\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎')
 	print('')
-	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95mNama Akun Facebook \x1b[1;97mKamu      : \x1b[1;97m{name}')
-	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95mIdentitas Diri \33[m(\x1b[1;97mID\33[m) \x1b[1;97mKamu     : \x1b[1;97m{id}')
+	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95mFacebook Account Name \x1b[1;97mKamu      : \x1b[1;97m{name}')
+	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95mSelf Identity \33[m(\x1b[1;97mID\33[m) \x1b[1;97mKamu     : \x1b[1;97m{id}')
 	print('\x1b[1;91m<--------------------------------------------------------------------------------------------------->')
-	print('\t\t\t             \x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95mINFORMASI LOKASI ANDA\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎')
+	print('\t\t\t             \x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95mYOUR LOCATION INFORMATION\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎')
 	print('')
 	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Internet Your Protocol    : {m}{ip}')
 	print(f'\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>{u}Informasi Your Country      : {m}{negara}')
@@ -425,33 +425,33 @@ def menu(name,id):
 	print('\x1b[1;91m<--------------------------------------------------------------------------------------------------->')
 	print('\t\t\t\t        \x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95mMENU INFORMATION\x1b[1;95m▪︎\x1b[1;95m▪︎\x1b[1;95m▪︎')
 	
-	print('\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95m01. Crack Massal \33[m[\x1b[1;97mON\33[m]')
+	print('\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95m01. Crack Bulk \33[m[\x1b[1;97mON\33[m]')
 	print('\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95m02. Crack Publik \33[m[\x1b[1;97mON\33[m]')
-	print('\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95m03. Cek Opsi \33[m[\x1b[1;97mON\33[m]')
-	print('\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95m04. Hasil Crack \33[m[\x1b[1;97mON\33[m]')
-	print('\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95m05. Doa Penghapus Dosa Besar \33[m[\x1b[1;97mRecomended Di Baca\33[m]')
-	print('\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95m00. Keluar \33[m( \x1b[1;97mHapus Cookie \33[m) ')
-	_____demias__syihab_____ = input('\n\x1b[1;95m[\x1b[1;95m?\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;97mPilih > \x1b[1;97m')
+	print('\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95m03. Cheque Option \33[m[\x1b[1;97mON\33[m]')
+	print('\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95m04. Result Crack \33[m[\x1b[1;97mON\33[m]')
+	print('\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95m05.Eraser Prayer Big Sin \33[m[\x1b[1;97mRecomended Di Baca\33[m]')
+	print('\x1b[1;95m[\x1b[1;95m+\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;95m00. Get out \33[m( \x1b[1;97mHapus Cookie \33[m) ')
+	_____drake__syihab_____ = input('\n\x1b[1;95m[\x1b[1;95m?\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;97mPilih > \x1b[1;97m')
 	print('')
-	if _____demias__syihab_____ in ['01','1']:
+	if _____drake__syihab_____ in ['01','1']:
 		dump_massal()
-	elif _____demias__syihab_____ in ['02','2']:
+	elif _____drake__syihab_____ in ['02','2']:
 	    dump_public()
-	elif _____demias__syihab_____ in ['03','3']:
+	elif _____drake__syihab_____ in ['03','3']:
 	    cek_opsi()
-	elif _____demias__syihab_____ in ['04','4']:
+	elif _____drake__syihab_____ in ['04','4']:
 	    result()
-	elif _____demias__syihab_____ in ['05','5']:
+	elif _____drake__syihab_____ in ['05','5']:
 	    doa_halal()
-	elif _____demias__syihab_____ in ['06','6']:
+	elif _____drake__syihab_____ in ['06','6']:
 	     whatsapp()
-	elif _____demias__syihab_____ in ['07','7']:
+	elif _____drake__syihab_____ in ['07','7']:
 	    akun_facebook()
-	elif _____demias__syihab_____ in ['Bot','BOT','bot']:
+	elif _____drake__syihab_____ in ['Bot','BOT','bot']:
 	    bot()
-	elif _____demias__syihab_____ in ['lainnya','Lainnya','LAINNYA']:
+	elif _____drake__syihab_____ in ['lainnya','Lainnya','LAINNYA']:
 	    lainnya()
-	elif _____demias__syihab_____ in ['00','0']:
+	elif _____drake__syihab_____ in ['00','0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
 		print('\x1b[1;95m[\x1b[1;95m!\x1b[1;95m]\x1b[1;95m ╰─>\x1b[1;97mSukses Logout \x1b[1;9m+\x1b[1;92m Hapus Cookie ')
@@ -557,7 +557,7 @@ def result():
 				sol().print(mark(cpkuh,style="green"))
 				print(f'{hh}COOKIE : {x}{cpkuni[2]}')
 				nocp +=1
-			input('[ Klik Enter ]')
+			input('[ click Enter ]')
 			back()
 	elif kz in ['0','00']:
 		back()
@@ -714,15 +714,15 @@ def bot_share():
 	os.system('clear')
 	banner()
 	cetak(nel(f'''{H2}[{K2}+{H2}] {H2}Nama Akun Facebook Anda  : {K2}{nama} 
-{H2}[{K2}+{H2}] {H2}ID Akun Facebook Kamu    : {K2}{id}
-{H2}[{K2}+{H2}] {H2}Internet Protocol Kamu   : {K2}{ip}
-{H2}[{K2}+{H2}] {H2}Informasi Hari & Tanggal : {K2}{hari}, {tanggal}''',title=f'{P2} {H2}[ {K2}Informasi Pengguna {H2}]',subtitle_align='center',padding=1,style='green'))
+{H2}[{K2}+{H2}] {H2}Your Facebook Account ID    : {K2}{id}
+{H2}[{K2}+{H2}] {H2}Your Internet Protocol   : {K2}{ip}
+{H2}[{K2}+{H2}] {H2}Day & Date Information : {K2}{hari}, {tanggal}''',title=f'{P2} {H2}[ {K2}Informasi Pengguna {H2}]',subtitle_align='center',padding=1,style='green'))
 	cetak(nel(f'{K2}Hi {H2}{nama}{K2}, Copy Link Postingan Publik Harus Dari Facebook Lite, Jika Tidak Akan Terjadi Eror Saat Proses Bot Share Sedang Berjalan.',title=f'{P2} {H2}[ {K2}Note {H2}]',subtitle_align='center',padding=1,style='green'))
-	cetak(nel(f'{H2} MASUKAN LINK POST PUBLIK',subtitle=f'{P2}┌─',subtitle_align='left',width=29,padding=0,style='green'))
+	cetak(nel(f'{H2} ENTER THE PUBLIC POST LINK',subtitle=f'{P2}┌─',subtitle_align='left',width=29,padding=0,style='green'))
 	link = input(f"\033[93m   └──> : \x1b[1;92m")
-	cetak(nel(f'{H2} MASUKAN JUMLAH SHARE',subtitle=f'{P2}┌─',subtitle_align='left',width=25,padding=0,style='green'))
+	cetak(nel(f'{H2}ENTER THE NUMBER OF SHARES',subtitle=f'{P2}┌─',subtitle_align='left',width=25,padding=0,style='green'))
 	jumlah = int(input(f"\033[93m   └──> : \x1b[1;92m"))
-	cetak(nel(f'{H2} AUTO SHARE SEDANG BERJALAN',subtitle=f'{P2}┌─',subtitle_align='left',width=29,padding=0,style='green'))
+	cetak(nel(f'{H2} AUTO SHARE IS RUNNING',subtitle=f'{P2}┌─',subtitle_align='left',width=29,padding=0,style='green'))
 	RianGantengBanget = datetime.now()
 	try:
 		n = 0
@@ -739,7 +739,7 @@ def bot_share():
 				cetak(nel(f'{H2} AUTO SHARE BERHENTI KEMUNGKINAN COOKIE INVALID ATAU TUMBAL MATI',width=35,padding=0,style='red'));exit()
 	except requests.exceptions.ConnectionError:
 		print(f"\n{H2}(!) Anda tidak terhubung ke internet!");exit()
-#----------------------[ BOT KOMEN FACEBOOK ]----------------------#
+#----------------------[ BOT Come FACEBOOK ]----------------------#
 def bot_komen():
     cookies = input('\x1b[1;93m[\x1b[1;92m?\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mMasukkan Cookie > \x1b[1;93m')
     limit   = int(input('\x1b[1;93m[\x1b[1;92m?\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mLimit Komen > \x1b[1;93m'))
@@ -909,7 +909,7 @@ agent = random.choice(
 
 def spam_sms():
 	global nomor 
-	print(f'   Masukan Nomor Target Yang Ingin Di Spam Contoh : +6281234567xxx')
+	print(f'   Enter The Target Number That You Want To Spam For Example: +6281234567xxx')
 	nomor = input(f" ╰─  Input No Hp : +62").replace("+62","")
 	if nomor == "":
 		pass
@@ -1265,12 +1265,12 @@ class sxp_sms:
 		self.sms_otp_12(nomor)
 		self.sms_otp_13(nomor)
 		self.sms_otp_14(nomor)
-		print(f'Sukses Spam SMS Ke No : +62{nomor}')
+		print(f'Success Spam SMS To No : +62{nomor}')
 
 #------------------[ DEFF SPAM WA ]-------------------# 
 def spam_wa():
 	global nomor
-	print(f'  Masukan Nomor Target Yang Ingin Di Spam Contoh : +6281234567xxx')
+	print(f' Enter The Target Number That You Want To Spam For Example : +6281234567xxx')
 	nomor = input(f" ╰─  Input No Hp : +62").replace("+62","")
 	if nomor == "":
 		pass
@@ -1508,7 +1508,7 @@ def setting():
 #-------------------[ BAGIAN-WORDLIST ]--------------------#
 def passwrd():
 	print('\x1b[1;91m<--------------------------------------------------------------------------------------------------->')
-	cetak(nel(f'\t\t       {U2}Mainkan Mode Pesawat Setiap {P2}1000 ID {U2}Selama 10 Detik !'))
+	cetak(nel(f'\t\t       {U2}Play Every Airplane Mode {P2}1000 ID {U2}Selama 10 Detik !'))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -1561,7 +1561,7 @@ def passwrd():
 	if woi in ['y','Y']:
 		back()
 	else:
-		print(f'\T{x}>>{k} SAMPAI JUMPA LAGI {x} << ')
+		print(f'\T{x}>>{k}SEE YOU LATER {x} << ')
 		time.sleep(2)
 		exit()
 #-------------------[ DOA HALAL ]-----------------------#
